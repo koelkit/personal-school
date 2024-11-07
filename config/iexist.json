@@ -9,6 +9,7 @@
   "kind": "StorageV2",
   "properties": {
     "enableHttpsTrafficOnly": false,
+    "minimumTlsVersion": "TLS1_0",
     "networkAcls": {
       "defaultAction": "Allow",
       "bypass": "AzureServices",
