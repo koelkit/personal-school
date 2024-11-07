@@ -1,0 +1,13 @@
+# bicep.lock
+
+# Module: Storage Account
+# Version: 2021-04-01
+resource Microsoft.Storage/storageAccounts@2021-04-01
+
+# Module: Virtual Network
+# Version: 2020-06-01
+resource Microsoft.Network/virtualNetworks@2020-06-01
+
+# Module: Key Vault
+# Version: 2021-04-01-preview
+resource Microsoft.KeyVault/vaults@2021-04-01-preview
